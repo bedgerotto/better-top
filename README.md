@@ -1,13 +1,13 @@
 # Unix fancy monitor
 
-Suite created based on the following post:
+Stack created based on the following post:
 
 https://medium.com/schkn/monitoring-linux-processes-using-prometheus-and-grafana-113b3e271971
 
 # Steps
 
 ## 1. Preparation
-  Install docker and docker-compose
+  Install [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/)
 
 ## 2. Startup
   Exec `docker-compose up`
@@ -25,6 +25,6 @@ Configure your Grafana dashboad following the previous mentioned medium post or,
 
 # ToDo
 
-[ ] Store Prometheus data in a volume
+- Store Prometheus data in a volume
 
-[ ] Store Grafana dashboard configuration
+- Store Grafana dashboard configuration
